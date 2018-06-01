@@ -1,0 +1,13 @@
+# An admin contact for errors, billing issues, and the like
+admin_email: carroll_johm@me.com
+
+# Config for shipping news (notify on merged PRs)
+shipping:
+  # Array of release notifications to send
+
+  -
+    # Send all releases to other teams
+    emails:
+      - carroll_john@me.com
+    matching:
+all: true
